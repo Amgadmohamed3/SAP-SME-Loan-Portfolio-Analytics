@@ -46,14 +46,14 @@ Layer 4: Interactive Dashboards (Reporting + Planning)
 
 ### Star Schema in SAP Datasphere
 
-![Data Model ER Diagram](./screenshots/6-_Data_Model.png)
+![Data Model](screenshots/6-%20Data%20Model.png)
 
 **Fact Table:** SME_Loan_Portfolio_Analytical
 - **2,000 loan records**, 27 columns
 - **11 calculated fields**: Risk metrics, delinquency buckets, exposure calculations
 - **Measures**: Principal Amount, Interest Income, Days Overdue, Risk Weights
 
-![Fact Table Structure](./screenshots/5-_Loans_Fact.png)
+![Loans Fact](screenshots/5-%20Loans%20Fact.png)
 
 **Dimension Tables:**
 
@@ -62,7 +62,7 @@ Layer 4: Interactive Dashboards (Reporting + Planning)
 <td width="33%">
 
 **Time Dimension**
-![Time Dimension](./screenshots/2-_data_dim.png)
+![Data Dim](screenshots/2-%20data%20dim.png)
 - Year → Quarter → Month hierarchy
 - Date attributes for filtering
 
@@ -70,7 +70,7 @@ Layer 4: Interactive Dashboards (Reporting + Planning)
 <td width="33%">
 
 **Geography Dimension**
-![Geography Dimension](./screenshots/4-_Geo_Dim.png)
+![Geo Dim](screenshots/4-%20Geo%20Dim.png)
 - 9 regions
 - Branch locations
 - Geo-coordinates for mapping
@@ -79,7 +79,7 @@ Layer 4: Interactive Dashboards (Reporting + Planning)
 <td width="33%">
 
 **Industry Dimension**
-![Industry Dimension](./screenshots/3-_industry_dim.png)
+![Industry Dim](screenshots/3-%20industry%20dim.png)
 - 15 industry sectors
 - Risk classification
 - Concentration analysis
@@ -95,7 +95,7 @@ Layer 4: Interactive Dashboards (Reporting + Planning)
 
 ## 📈 Dashboard 1: Portfolio Health Monitor
 
-![Portfolio Health Dashboard](./screenshots/7-_SME_Loan_Portfolio_Story.png)
+![SME Loan Portfolio Story](screenshots/7-%20SME%20Loan%20Portfolio%20Story.png)
 
 ### Key Features:
 - **7 KPI Tiles**: Total Principal ($477.8M), Total Loans (2,000), Default Rate (33.1%), Risk Rate (14.7%), Avg Days Overdue (35), Interest Income ($57.3M)
@@ -115,7 +115,7 @@ Layer 4: Interactive Dashboards (Reporting + Planning)
 
 ## 📊 Dashboard 2: Planning & Forecast Cockpit
 
-![Planning Dashboard](./screenshots/11-_SME_Planning___Forecast_Story.png)
+![SME Planning & Forecast Story](screenshots/11-%20SME%20Planning%20%26%20Forecast%20Story.png)
 
 ### Key Features:
 - **5 Strategic KPIs**: Actual YTD 2021 ($346.17M ↑19.85%), Planned Forecast 2022 ($429.50M ↑24.07%), Growth vs 2021 (+24.07%), Confidence Level (92%), Risk Level (Medium)
@@ -126,7 +126,7 @@ Layer 4: Interactive Dashboards (Reporting + Planning)
 
 ### Planning Model Structure
 
-![Planning Model](./screenshots/8-_Planning_Model_Structure.png)
+![Planning Model Structure](screenshots/8-%20Planning%20Model%20Structure.png)
 
 **Dimensions (3):**
 - **Time**: Quarterly granularity (2018-2022)
@@ -139,7 +139,7 @@ Layer 4: Interactive Dashboards (Reporting + Planning)
 
 ### Formula Logic
 
-![Calculations](./screenshots/9-_Planning_Model_Calculations.png)
+![Planning Model Calculations](screenshots/9-%20Planning%20Model%20Calculations.png)
 
 **Key Formulas:**
 
@@ -172,7 +172,7 @@ Example: ($25.6M - $23.4M) / $23.4M = 9.4%
 
 ### Data Management
 
-![Data Import](./screenshots/10-_Planning_Model_Data_Management.png)
+![Planning Model Data Management](screenshots/10-%20Planning%20Model%20Data%20Management.png)
 
 **Scenario Data:**
 - **Actual**: Historical data (2018-2021) - 16 quarters imported
