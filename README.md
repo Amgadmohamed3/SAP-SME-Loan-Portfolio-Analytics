@@ -164,9 +164,9 @@ Example: 22 / 520 × 100 = 4.23%
 
 **Portfolio Growth** (QoQ %):
 ```javascript
-IF(LOOKUP([Total_Principal], PREVIOUS("Quarter")) = 0, 0,
-   ([Total_Principal] - LOOKUP([Total_Principal], PREVIOUS("Quarter"))) / 
-   LOOKUP([Total_Principal], PREVIOUS("Quarter")))
+IF(LOOKUP([Total_Principal],[d/TIme] = PREVIOUS("Quarter", 1)) = 0,  0, 
+  ([Total_Principal] - LOOKUP([Total_Principal],[d/TIme] = PREVIOUS("Quarter", 1)))  / 
+  LOOKUP([Total_Principal], [d/TIme] = PREVIOUS("Quarter", 1)))
 Example: ($25.6M - $23.4M) / $23.4M = 9.4%
 ```
 
