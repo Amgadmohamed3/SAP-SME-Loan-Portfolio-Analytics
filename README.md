@@ -25,7 +25,7 @@ Complete analytics solution spanning data modeling (SAP Datasphere), planning mo
 
 ## 🏗️ Architecture
 
-[![Architecture Overview](./screenshots/12-_ARCHITECTURE_OVERVIEW_.png)
+![Architecture Overview](screenshots/12-%20ARCHITECTURE%20OVERVIEW%20.png)
 
 **4-Layer Architecture:**
 ```
