@@ -25,7 +25,7 @@ Complete analytics solution spanning data modeling (SAP Datasphere), planning mo
 
 ## 🏗️ Architecture
 
-![Architecture Overview](./screenshots/12-_ARCHITECTURE_OVERVIEW_.png)
+[![Architecture Overview](./screenshots/12-_ARCHITECTURE_OVERVIEW_.png)](https://github.com/Amgadmohamed3/SAP-SME-Loan-Portfolio-Analytics/blob/f6b0d95546e3f60def5297db3cf6bd928a5fe1da/screenshots/12-%20ARCHITECTURE%20OVERVIEW%20.png)
 
 **4-Layer Architecture:**
 ```
