@@ -89,7 +89,7 @@ Layer 4: Interactive Dashboards (Reporting + Planning)
 </table>
 
 **Data Source:**
-![Raw Data](./screenshots/1-_SME_Raw_Data.png)
+![SME Raw Data](screenshots/1-%20SME%20Raw%20Data.png)
 
 ---
 
