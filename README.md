@@ -213,31 +213,6 @@ Example: ($25.6M - $23.4M) / $23.4M = 9.4%
 
 ---
 
-## 🚀 Technical Highlights
-
-### What Makes This Project Stand Out
-
-1. **Complete Analytics Lifecycle**
-   - Not just dashboards - demonstrates full pipeline from CSV to interactive planning
-   - Shows understanding of data flow, transformations, and business logic
-
-2. **Planning Capabilities** ⭐
-   - Interactive editable tables (not read-only reports)
-   - Real-time calculation engine with complex formulas
-   - **Key differentiator for SAP Planning Consultant roles**
-
-3. **Production-Ready Quality**
-   - Professional design with consistent theming (#1F3B5C navy palette)
-   - Comprehensive data model with 11 calculated fields
-   - Formula complexity (LAG/PREVIOUS, conditional logic, lookups)
-
-4. **Business Relevance**
-   - Real-world financial use case
-   - Actual metrics (NPL ratio, default rate, interest income)
-   - Decision-support focused (scenario planning, forecasting)
-
----
-
 ## 📁 Project Structure
 
 ```
@@ -346,19 +321,3 @@ This project is for educational and portfolio purposes. Data source is a publicl
 - SAP Learning Hub for formula syntax references
 - Open-source SBA dataset for realistic business scenario
 
----
-
-**⭐ If you find this project interesting, please star the repository!**
-
-**Built with SAP Analytics Cloud and Datasphere to demonstrate production-ready analytics and planning skills**
-
----
-
-### 📈 Project Statistics
-
-- 📅 **Development Time**: 3 weeks
-- 🔢 **Lines of Code**: 500+ (formulas, calculations, transformations)
-- 📊 **Data Points**: 54,000+ (2,000 loans × 27 attributes)
-- 🎨 **Design Hours**: 15+ hours on dashboard UX
-- 📐 **Formulas Created**: 16 total calculations
-- ✅ **Completion**: 100%
